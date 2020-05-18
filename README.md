@@ -3,7 +3,7 @@ This thingy uses [money.js](https://github.com/openexchangerates/money.js/) and 
 
 ![haaa](http://i57.tinypic.com/t9gtuq.png)
 
-#Installation
+# Installation #
 I use [open exchange rates](https://openexchangerates.org/) for the JSON data for currency, you'll need to get a app ID or use something else if you dont want to use openexchangerates.
 
 On line 6 of the .js file, you can configure your rates URL
@@ -14,7 +14,7 @@ Add the JS to your site @ the bottom.
 
         <script src="ez-currency-converter.js" type="text/javascript"></script>
 
-##Get it goin'
+## Get it goin' ##
 Set up a document ready that creates the element.
 
         (function($){    
@@ -29,16 +29,16 @@ Set up a document ready that creates the element.
         })(jQuery)
 
 
-##Markup
+## Markup ##
 
-###Currency Selector
+### Currency Selector ###
 Put the select box where you can change currencies somewhere on your site like this
 
         <select class="currency_converter"></select>
         
 and the options will fill themselves.
 
-###Prices 
+### Prices ###
 
         <span class="ezPrice">$69.00</span>
         
